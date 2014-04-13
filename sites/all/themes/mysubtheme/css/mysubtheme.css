@@ -46,6 +46,12 @@
 	font-family: serif;
 	font-size: small;
 }
+.item-list .last a{
+
+	color: blue;	
+	font-weight: bold;
+	font-family: verdana	;
+}
 .region-header .form-required {
 
 	color: red;
@@ -64,23 +70,23 @@
 /*end of previous block*/
 
 /*Following are css for projects listed under categories*/
-.field-name-field-features{
+.node-teaser .field-name-field-features{
 	display: inline-block;
 	width: 100px;
 	height: 72px;
 
 }
-.field-name-field-reliability{
+.node-teaser .field-name-field-reliability{
 	display: inline-block;
 	width: 100px;
 	height: 72px;
 }
-.field-name-field-ease-of-use{
+.node-teaser .field-name-field-ease-of-use{
 	display: inline-block;
 	width: 100px;
 	height: 72px;	
 }
-.field-name-field-documentation{
+.node-teaser .field-name-field-documentation{
 	display: inline-block;
 	width: 100px;
 	height: 72px;
@@ -91,3 +97,79 @@
 }
 /*End of previous css block*/
 
+/*css for full node view of project*/
+.node .content .field-name-field-features{
+	
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	margin-top: 20px;
+	
+}
+.node .content .field-name-field-reliability{
+	
+	left: 150px;
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+}
+.node .content .field-name-field-ease-of-use{
+	
+	left: 300px;
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+}
+.node .content .field-name-field-documentation{
+	
+	left: 450px;
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+}
+
+.node .field h3.field-label{
+	font-size: 1em;	
+	font-family: "Times New Roman";
+	font-weight: bold;
+}
+
+ul.links li{
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-right: 3px;
+	background-color: #ccc;
+}
+
+ul.links li a{
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+/*end of the previous block*/
+
+/*css for all the navigation menu bar*/
+#main-menu ul.links li{
+	margin-top: 5px;
+	border-radius: 4px;
+	border-left: 1px solid #505050;
+	border-right: 1px solid #505050;
+	border-top: 1px solid #505050;
+	border-bottom: none;
+	margin-right: 3px;
+	background-color: #ccc;
+}
+
+#main-menu ul.links a{
+	margin-left: 5px;
+	text-decoration: none;
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+
+}
+/*end of the previous block*/
