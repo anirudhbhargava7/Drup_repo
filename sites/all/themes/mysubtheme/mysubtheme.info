@@ -8,7 +8,7 @@ base theme = bartik
 
 
 stylesheets[all][] = css/colors.css
-stylesheet[all][] = css/mysubtheme.css
+stylesheets[all][] = css/mysubtheme.css
 
 regions[header] = Header
 regions[help] = Help

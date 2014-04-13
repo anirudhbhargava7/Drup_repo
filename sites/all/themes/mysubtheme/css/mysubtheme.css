@@ -1,0 +1,59 @@
+#header {
+
+	background: white;
+}
+#header .section {
+
+	background-image: linear-gradient(to left, #FFFFFF 0%, #D6D8FF 0%);
+	border-radius: 5px;	
+	margin-top: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+#main {
+	border: 1px solid #ccc;
+	background-image: linear-gradient(to bottom right, #FFFFFF 0%, #D6D8FF 200%);
+	border-radius: 5px;
+}
+
+.item-list .first{
+
+	position: absolute;
+	/*border: 1px solid black;*/
+	margin-top: 10px;
+	font-family: serif;
+	font-size: small;
+}
+
+.item-list .first a{
+
+	color: blue;
+	font-weight: bold;
+	font-family: verdana	;
+}
+
+.item-list .last {
+
+	position: absolute;
+	/*border: 1px solid black;*/
+	right: 40px;
+	margin-top: 10px;
+	margin-right: -12px;
+	font-family: serif;
+	font-size: small;
+}
+.region-header .form-required {
+
+	color: red;
+
+}
+.region-header #block-user-login input.form-submit {
+
+	position : absolute;
+	border: 1px solid black;	
+	top: 100px;
+	border-radius: 5px;
+	width: 90px;
+	height: 25px;
+	font-weight: bold;
+}
